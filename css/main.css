@@ -1,0 +1,148 @@
+/*----------- 
+Google Fonts
+-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER SECTION  */
+.hero-bg{
+    background-color: #264653;
+    color: white;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+p{
+    font-size: 14px;
+}
+.hero-img{
+    width: 100%;
+}
+.btn{
+    background-color: #E76F51;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    color: white;
+}
+.modal-title, .modal-body{
+    color: black;
+}
+.cbr-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #E76F51;
+}
+.collection-color, .happy-client, .faq-title{
+    color: #E76F51;
+}
+
+/* FEATURE SECTION  */
+.featured-bike{
+    width: 288px;
+    height: 243px;
+}
+.bike-gray{
+    filter: grayscale(100%);
+}
+
+/* NEWS SECTION  */
+.news-btn{
+    color: #E76F51;
+    background-color: white;
+    border: 1px solid #E76F51;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.news-btn:hover{
+    background-color: #E76F51;
+    color: white;    
+}
+/* CLIENT TESTIMONIAL  */
+.client-photo{
+    width: 149px;
+    height: 149px;
+}
+.rating-fill{
+    color: #E77C40;
+}
+.rating-empty{
+    color: #E77C40;;
+}
+h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+/* FAQ SECTION  */
+.faq-heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+}
+.faq-body{
+    font-size: 16px;
+    font-weight: 400;
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+}
+/* WHAT WE'RE UP TO SECTION  */
+.card-upto {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.card-upto img {
+    width: 100%;
+    transition: 1.0s all ease-in-out;
+}
+.card-upto:hover img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+h5{
+    font-weight: 600;
+}
+.upto-link a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.upto-link a:hover{
+    color: #E77C40;
+}
+/* INNOVATION SECTION  */
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #383838;
+    font-family: 'Inter', sans-serif;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #E77C40;
+}
+
+/* FOOTER SECTION  */
+.footer-bg{
+    background-color: #264653;
+    color: white;
+}
+.social-icons{
+    font-size: 30px;
+}
+.social-icons i:hover{
+    color: #E77C40;
+    cursor: pointer;
+}
+.social-icons a{
+    color: white;
+}
+.footer-link a{
+    color: yellow;
+}
