@@ -43,6 +43,61 @@ p{
     color: #E76F51;
 }
 
+/* HONDA WEBSITE CLONE SECTION */
+.logos-height{
+    height: 240px;
+}
+.bike-height img{
+    height: 240px;
+}
+.link-white{
+    display: inline-block;
+}
+.link-white::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    display: block;
+}
+.link-black{
+    display: inline-block;
+}
+.link-black::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    display: block;
+}
+
+.image-frame{
+    height: 480px;
+    overflow: hidden;
+}
+.zoom-in img{
+    height: 480px;
+    transition: transform .8s ease;
+}
+.zoom-in img:hover{
+    height: 480px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.frame-rectangel{
+    height: 240px;
+    overflow: hidden;
+} 
+.zoom-in-rectangel img{
+    height: 240px;
+    transition: transform 0.8s ease;
+}
+.zoom-in-rectangel img:hover{
+    height: 240px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+ 
 /* FEATURE SECTION  */
 .featured-bike{
     width: 288px;
